@@ -36,9 +36,11 @@ The project follows a memory loop sequence for every turn:
 3. **Configure your API Key:**
 Create a `.env` file in the project's root folder and add your Google Gemini API Key:
 
-```text
-GEMINI_API_KEY=your_api_key_here
+   ```text
+   GEMINI_API_KEY=your_api_key_here
 
 4. **Start the application:**
    ```bash
    python app.py
+
+
