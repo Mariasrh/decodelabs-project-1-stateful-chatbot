@@ -28,3 +28,17 @@ The project follows a memory loop sequence for every turn:
 1. Clone this repository:
    ```bash
    git clone [https://github.com/Mariasrh/decodelabs-project-1-stateful-chatbot.git](https://github.com/Mariasrh/decodelabs-project-1-stateful-chatbot.git)
+
+2. **Install the dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Configure your API Key:**
+Create a `.env` file in the project's root folder and add your Google Gemini API Key:
+
+```text
+GEMINI_API_KEY=your_api_key_here
+
+4. **Start the application:**
+   ```bash
+   python app.py
