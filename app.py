@@ -68,7 +68,7 @@ def predict(message, history):
 
 
 
-# Create and run the interface
+#  interface
 
 demo = gr.ChatInterface(fn=predict, title="My Stateful Chatbot")
 
